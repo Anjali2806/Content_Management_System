@@ -9,10 +9,12 @@ In situations like these, where a user wants to immediately see how their materi
 
 # Tech Stack Used
 
-HTML, CSS, JS
+* HTML
+* CSS
+* Java Script
 
 # How to run this project
 
-Clone the project using command - git clone https://github.com/Anjali2806/Content_Management_System.git
-Open the project in your prefered code editor.
-Run the index.html file in your prefered web browser.
+* Clone the project using command - git clone https://github.com/Anjali2806/Content_Management_System.git
+* Open the project in your prefered code editor.
+* Run the index.html file in your prefered web browser.
