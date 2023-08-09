@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" href="styling.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="title-bg">Content Management System</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="input-data">
+                <div class="card">
+                    <div class="input-section">
+                        <b><label class="label-section" for="title">Title:</label></b>
+                        <input class="div-section" type="text" id="title" placeholder="Enter title">
+                    </div>
+
+                    <div class="input-section">
+                        <b><label class="label-section" for="content">Content:</label></b>
+                        <textarea class="div-section" id="content" rows="10" cols="100" placeholder="Enter content"></textarea>
+                    </div>
+                    <div class="input-section">
+                        <b><label class="label-section" for="image">Image:</label></b>
+                        <input type="file" id="image" accept="image/*">
+                    </div>
+
+                    <div class="input-section">
+                        <b><label class="label-section" for="video">Video:</label></b>
+                        <input type="file" id="video" accept="video/*">
+                    </div>
+                </div>
+                <div class="button-section">
+                    <button onclick="submitForm()">Submit</button>
+                </div>
+            </div>
+            <div class="preview-data">
+                <div class="data-container">
+                    <div class="data-section" id="dataSection">
+                        <!-- Preview data will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
